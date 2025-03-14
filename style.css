@@ -1,4 +1,4 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,43 +6,44 @@ nav{
 }
 
 /* Navbar left side */
-.nav-left{
+.nav-left {
     display: flex;
     gap: 12px;
     align-items: center;
 }
 
-.menu{
+.menu {
     padding: 15px;
 }
 
-.menu:hover{
+.menu:hover {
     background-color: gainsboro;
     padding: 15px;
     border-radius: 50px;
-    }
+    cursor: pointer;
+}
 
 
-    /* Middle section */
-.search{
+/* Middle section */
+.search {
     display: flex;
     align-items: center;
     gap: 20px;
     border: 2px solid gray;
     border-radius: 45px;
-}    
-
-.search > input {
-background-color: transparent;
-border: 0 solid;
-outline: none;
-padding-left: 15px;
-height: 25px;
-width: 250px;
-font-size: 25px;
 }
 
-.search-icon{
+.search>input {
+    background-color: transparent;
+    border: 0 solid;
+    outline: none;
+    padding-left: 15px;
+    height: 25px;
+    width: 250px;
+    font-size: 25px;
+}
+
+.search-icon {
     background-color: rgb(235, 227, 227);
     padding: 10px 20px;
     border: 2px solid gray;
@@ -51,25 +52,63 @@ font-size: 25px;
     font-size: 25px;
 }
 
-.middle{
+.middle {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.mic{
+.mic {
     font-size: 25px;
     background-color: rgb(237, 232, 232);
     padding: 20px 20px;
     border-radius: 35px;
 }
 
-.mic:hover{
+.mic:hover {
     background-color: gainsboro;
     cursor: pointer;
 }
 
-.search-icon:hover{
+.search-icon:hover {
     background-color: gainsboro;
     cursor: pointer;
+}
+
+/* Right side */
+.right {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+i{
+    padding: 0;
+}
+
+.create{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 25px;
+    background-color: rgb(243, 238, 238);
+    padding: 10px 25px;
+    border-radius: 35px;
+}
+
+.create:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.profile{
+   border: 0 solid gray;
+   width: 75px;
+   border-radius: 75px;
+   cursor: pointer;
 }
