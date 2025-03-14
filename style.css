@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.nav-left{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.menu{
+    padding: 15px;
+}
+
+.menu:hover{
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 50px;
+    }
